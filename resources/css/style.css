@@ -1,0 +1,107 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.style-trait {
+    flex-basis: 100%;
+
+}
+.style-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.color-box {
+    width: calc(33.333% - 20px);
+    height: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+#apal-logo-color {
+    background-color: #ff9aa1;
+}
+#pink-skin-character {
+    background-color: #fec19e;
+}
+#afro-skin-character {
+    background-color: #8d5e3b;
+}
+#chat-box-apal {
+    background-color: #f9f0eb;
+}
+#chat-box-user {
+    background-color: #f0f0f0;
+}
+#send-box {
+    background-color: #31b6fc;
+}
+.hex-color {
+    font-weight: bold;
+    font-style: italic;
+}
+.font-underline {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.font-block h3 {
+  margin: 0 0 8px 0;  /* only a small space below */
+}
+
+.font-block {
+    width: calc(50% - 20px);
+    font-size: 18px;
+    flex-direction: column;
+}
+.font-block li {
+  margin-bottom: 12px;
+}
+
+.font-block ul {
+  margin: 0;
+}
+
+.font-samples {
+    list-style-type: none;
+    padding-left: 0;
+}
+#inter-font {
+    font-family: 'Inter', sans-serif;
+}
+#arial-font {
+    font-family: Arial, sans-serif;
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-italic {
+    font-style: italic;
+}
+.h1-sample {
+    font-size: 32px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.h1-sample ul {
+    margin-top: 2px;
+}
+.h2-sample {
+    font-size: 24px;
+    margin-top: 2px;
+}
+.p-sample {
+    font-size: 18px;
+    margin-top: 2px;
+    font-weight: normal;
+}
